@@ -56,15 +56,23 @@
 		CA96FCA22A44579700E0945B /* TestAppHummerSystem */ = {
 			isa = PBXGroup;
 			children = (
+				CA96FCB92A44A4DA00E0945B /* Service */,
 				CA96FCA72A44579700E0945B /* ViewController.swift */,
 				CA96FCA92A44579700E0945B /* Main.storyboard */,
 				CA96FCAE2A44579900E0945B /* LaunchScreen.storyboard */,
+			);
+			path = TestAppHummerSystem;
+			sourceTree = "<group>";
+		};
+		CA96FCB92A44A4DA00E0945B /* Service */ = {
+			isa = PBXGroup;
+			children = (
 				CA96FCA32A44579700E0945B /* AppDelegate.swift */,
 				CA96FCA52A44579700E0945B /* SceneDelegate.swift */,
 				CA96FCAC2A44579900E0945B /* Assets.xcassets */,
 				CA96FCB12A44579900E0945B /* Info.plist */,
 			);
-			path = TestAppHummerSystem;
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
