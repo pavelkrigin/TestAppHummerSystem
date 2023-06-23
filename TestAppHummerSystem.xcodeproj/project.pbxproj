@@ -56,15 +56,14 @@
 		CA96FCA22A44579700E0945B /* TestAppHummerSystem */ = {
 			isa = PBXGroup;
 			children = (
-				CA96FCB92A44A4DA00E0945B /* Service */,
-				CA96FCA72A44579700E0945B /* ViewController.swift */,
-				CA96FCA92A44579700E0945B /* Main.storyboard */,
-				CA96FCAE2A44579900E0945B /* LaunchScreen.storyboard */,
+				CA96FCBB2A45B8C300E0945B /* Interface Builder */,
+				CA96FCBA2A45B8A700E0945B /* ViewControllers */,
+				CA96FCB92A44A4DA00E0945B /* Services */,
 			);
 			path = TestAppHummerSystem;
 			sourceTree = "<group>";
 		};
-		CA96FCB92A44A4DA00E0945B /* Service */ = {
+		CA96FCB92A44A4DA00E0945B /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				CA96FCA32A44579700E0945B /* AppDelegate.swift */,
@@ -72,7 +71,24 @@
 				CA96FCAC2A44579900E0945B /* Assets.xcassets */,
 				CA96FCB12A44579900E0945B /* Info.plist */,
 			);
-			path = Service;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CA96FCBA2A45B8A700E0945B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA96FCA72A44579700E0945B /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CA96FCBB2A45B8C300E0945B /* Interface Builder */ = {
+			isa = PBXGroup;
+			children = (
+				CA96FCA92A44579700E0945B /* Main.storyboard */,
+				CA96FCAE2A44579900E0945B /* LaunchScreen.storyboard */,
+			);
+			path = "Interface Builder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
