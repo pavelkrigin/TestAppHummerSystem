@@ -21,8 +21,10 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem systemItem="favorites" id="RYU-Re-Y2o"/>
-                                    <tabBarItem systemItem="more" id="Uuc-sn-ruj"/>
+                                    <tabBarItem title="Item" id="XXr-hE-Vr0"/>
+                                    <tabBarItem title="Item" id="DWN-HW-htl"/>
+                                    <tabBarItem title="Item" id="Pej-15-bPh"/>
+                                    <tabBarItem title="Item" id="aL5-35-Izg"/>
                                 </items>
                             </tabBar>
                         </subviews>

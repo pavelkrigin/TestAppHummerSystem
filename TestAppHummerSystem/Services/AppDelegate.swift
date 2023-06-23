@@ -14,11 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        //MARK: - Creating an instance ViewController
+        //MARK: - Creating an instance ViewControllers
         let viewController = ViewController()
-        
-        
-            
+                    
         let menuViewController = MenuViewController()
         let contactsViewController = ContactsViewController()
         let profileViewController = ProfileViewController()
