@@ -17,11 +17,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //MARK: - Creating an instance ViewController
         let viewController = ViewController()
         
+        
+            
+        let menuViewController = MenuViewController()
+        let contactsViewController = ContactsViewController()
+        let profileViewController = ProfileViewController()
+        let cartViewController = CartViewController()
+        
+        let tabBarController = UITabBarController()
+        
+        tabBarController.viewControllers = [
+                    menuViewController,
+                    contactsViewController,
+                    profileViewController,
+                    cartViewController
+                ]
+        
         //MARK: - Creating an application window and installing ViewController as the root view controller
         let window = UIWindow(frame: UIScreen.main.bounds)
             window.rootViewController = viewController
             window.makeKeyAndVisible()
-            
         
         return true
     }
