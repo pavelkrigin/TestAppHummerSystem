@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol UserView: class {
-    func showUserName(_ name: String)
-    func showUserAge(_ age: Int)
-}
+//protocol UserView: class {
+//    func showUserName(_ name: String)
+//    func showUserAge(_ age: Int)
+//}

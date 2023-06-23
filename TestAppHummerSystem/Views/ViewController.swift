@@ -7,41 +7,66 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+import UIKit
 
+class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let tabBarController = UITabBarController()
+        
+        let menuViewController = MenuViewController()
+        let contactsViewController = ContactsViewController()
+        let profileViewController = ProfileViewController()
+        let cartViewController = CartViewController()
+        
+        menuViewController.tabBarItem = UITabBarItem(title: "Меню", image: UIImage(systemName: "list.dash"), tag: 0)
+        contactsViewController.tabBarItem = UITabBarItem(title: "Контакты", image: UIImage(systemName: "person.crop.circle"), tag: 1)
+        profileViewController.tabBarItem = UITabBarItem(title: "Профиль", image: UIImage(systemName: "person"), tag: 2)
+        cartViewController.tabBarItem = UITabBarItem(title: "Корзина", image: UIImage(systemName: "cart"), tag: 3)
+        
+        let viewControllers = [menuViewController, contactsViewController, profileViewController, cartViewController]
+        tabBarController.viewControllers = viewControllers.map { UINavigationController(rootViewController: $0) }
+        
+        if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
+            appDelegate.window?.rootViewController = tabBarController
+        }
     }
-
-
 }
 
-//class UserViewController: UIViewController, UserView {
-//    var presenter: UserPresenter!
-//
-//    @IBOutlet weak var nameLabel: UILabel!
-//    @IBOutlet weak var ageLabel: UILabel!
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        presenter = UserPresenter(user: User(name: "John Doe", age: 30), view: self)
-//        updateUserInfo()
-//    }
-//
-//    func showUserName(_ name: String) {
-//        nameLabel.text = name
-//    }
-//
-//    func showUserAge(_ age: Int) {
-//        ageLabel.text = "\(age)"
-//    }
-//
-//    @IBAction func updateButtonTapped(_ sender: UIButton) {
-//        presenter.updateUser(name: "Jane Smith", age: 25)
-//    }
-//
-//    private func updateUserInfo() {
-//        presenter.updateUser(name: presenter.user.name, age: presenter.user.age)
-//    }
-//}
+class MenuViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Ваш код для экрана меню
+        view.backgroundColor = .white
+        title = "Меню"
+    }
+}
+
+class ContactsViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Ваш код для экрана контактов
+        view.backgroundColor = .white
+        title = "Контакты"
+    }
+}
+
+class ProfileViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Ваш код для экрана профиля
+        view.backgroundColor = .white
+        title = "Профиль"
+    }
+}
+
+class CartViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Ваш код для экрана корзины
+        view.backgroundColor = .white
+        title = "Корзина"
+    }
+}
+
