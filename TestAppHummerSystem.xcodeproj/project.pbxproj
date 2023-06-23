@@ -16,10 +16,10 @@
 		CA96FCBE2A45D8B700E0945B /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96FCBD2A45D8B700E0945B /* Presenter.swift */; };
 		CA96FCC02A45D8EB00E0945B /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96FCBF2A45D8EB00E0945B /* View.swift */; };
 		CA96FCC22A45D92100E0945B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96FCC12A45D92100E0945B /* Model.swift */; };
-		CAA235382A45F6B9005630B5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235372A45F6B9005630B5 /* MenuViewController.swift */; };
-		CAA2353A2A45F6EB005630B5 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235392A45F6EB005630B5 /* ContactsViewController.swift */; };
-		CAA2353C2A45F70E005630B5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA2353B2A45F70E005630B5 /* ProfileViewController.swift */; };
-		CAA2353E2A45F730005630B5 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA2353D2A45F730005630B5 /* CartViewController.swift */; };
+		CAA235402A4605AD005630B5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA2353F2A4605AD005630B5 /* MenuViewController.swift */; };
+		CAA235422A4605F4005630B5 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235412A4605F4005630B5 /* ContactsViewController.swift */; };
+		CAA235442A460640005630B5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235432A460640005630B5 /* ProfileViewController.swift */; };
+		CAA235462A46069D005630B5 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235452A46069D005630B5 /* CartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +34,10 @@
 		CA96FCBD2A45D8B700E0945B /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		CA96FCBF2A45D8EB00E0945B /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		CA96FCC12A45D92100E0945B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		CAA235372A45F6B9005630B5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		CAA235392A45F6EB005630B5 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
-		CAA2353B2A45F70E005630B5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		CAA2353D2A45F730005630B5 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		CAA2353F2A4605AD005630B5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CAA235412A4605F4005630B5 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		CAA235432A460640005630B5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CAA235452A46069D005630B5 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,11 +119,11 @@
 			isa = PBXGroup;
 			children = (
 				CA96FCA72A44579700E0945B /* ViewController.swift */,
+				CAA2353F2A4605AD005630B5 /* MenuViewController.swift */,
 				CA96FCBF2A45D8EB00E0945B /* View.swift */,
-				CAA235372A45F6B9005630B5 /* MenuViewController.swift */,
-				CAA235392A45F6EB005630B5 /* ContactsViewController.swift */,
-				CAA2353B2A45F70E005630B5 /* ProfileViewController.swift */,
-				CAA2353D2A45F730005630B5 /* CartViewController.swift */,
+				CAA235412A4605F4005630B5 /* ContactsViewController.swift */,
+				CAA235432A460640005630B5 /* ProfileViewController.swift */,
+				CAA235452A46069D005630B5 /* CartViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,12 +201,12 @@
 			files = (
 				CA96FCA82A44579700E0945B /* ViewController.swift in Sources */,
 				CA96FCA42A44579700E0945B /* AppDelegate.swift in Sources */,
-				CAA2353E2A45F730005630B5 /* CartViewController.swift in Sources */,
+				CAA235462A46069D005630B5 /* CartViewController.swift in Sources */,
 				CA96FCC02A45D8EB00E0945B /* View.swift in Sources */,
-				CAA235382A45F6B9005630B5 /* MenuViewController.swift in Sources */,
+				CAA235402A4605AD005630B5 /* MenuViewController.swift in Sources */,
 				CA96FCC22A45D92100E0945B /* Model.swift in Sources */,
-				CAA2353A2A45F6EB005630B5 /* ContactsViewController.swift in Sources */,
-				CAA2353C2A45F70E005630B5 /* ProfileViewController.swift in Sources */,
+				CAA235422A4605F4005630B5 /* ContactsViewController.swift in Sources */,
+				CAA235442A460640005630B5 /* ProfileViewController.swift in Sources */,
 				CA96FCBE2A45D8B700E0945B /* Presenter.swift in Sources */,
 				CA96FCA62A44579700E0945B /* SceneDelegate.swift in Sources */,
 			);

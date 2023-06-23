@@ -7,3 +7,12 @@
 
 import Foundation
 import UIKit
+
+class CartViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // код для экрана корзины
+        view.backgroundColor = .white
+        title = "Корзина"
+    }
+}

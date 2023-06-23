@@ -8,4 +8,11 @@
 import Foundation
 import UIKit
 
-
+class MenuViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // код для экрана меню
+        view.backgroundColor = .white
+        title = "Меню"
+    }
+}

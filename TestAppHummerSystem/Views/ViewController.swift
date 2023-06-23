@@ -34,39 +34,11 @@ class ViewController: UIViewController {
     }
 }
 
-class MenuViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Ваш код для экрана меню
-        view.backgroundColor = .white
-        title = "Меню"
-    }
-}
 
-class ContactsViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Ваш код для экрана контактов
-        view.backgroundColor = .white
-        title = "Контакты"
-    }
-}
 
-class ProfileViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Ваш код для экрана профиля
-        view.backgroundColor = .white
-        title = "Профиль"
-    }
-}
 
-class CartViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Ваш код для экрана корзины
-        view.backgroundColor = .white
-        title = "Корзина"
-    }
-}
+
+
+
+
 

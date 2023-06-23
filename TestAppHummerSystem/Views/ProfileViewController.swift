@@ -8,4 +8,11 @@
 import Foundation
 import UIKit
 
-
+class ProfileViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // код для экрана профиля
+        view.backgroundColor = .white
+        title = "Профиль"
+    }
+}

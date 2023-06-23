@@ -8,9 +8,11 @@
 import Foundation
 import UIKit
 
-//class ContactsViewController: UIViewController {
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        
-//    }
-//}
+class ContactsViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // код для экрана контактов
+        view.backgroundColor = .white
+        title = "Контакты"
+    }
+}
