@@ -8,28 +8,11 @@
 import Foundation
 import UIKit
 
-class NetworkService {
+class Presenter {
+    private let dataSourse: APIDataSource?
     
-    // MARK: - Properties
-
-    let urlString = "https://my-json-server.typicode.com/Spote777/PizzaResources/data"
-    
-    // MARK: - Method
-    
-    func request(completion: @escaping (Result<Data, Error>)-> Void) {
-        let url = URL(string: urlString)
-        let session = URLSession.shared
-        session.dataTask(with: url!) { (data, response, error) in
-            DispatchQueue.main.async {
-                if let error = error {
-                    print("Some error")
-                    completion(.failure(error))
-                    return
-                }
-                guard let data = data else { return }
-                completion(.success(data))
-            }
-        }.resume()
+    init(dataSourse: APIDataSource) {
+        self.dataSourse = dataSourse
     }
 }
 

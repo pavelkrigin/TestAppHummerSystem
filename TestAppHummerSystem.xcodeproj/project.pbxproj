@@ -20,6 +20,7 @@
 		CAA235422A4605F4005630B5 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235412A4605F4005630B5 /* ContactsViewController.swift */; };
 		CAA235442A460640005630B5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235432A460640005630B5 /* ProfileViewController.swift */; };
 		CAA235462A46069D005630B5 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235452A46069D005630B5 /* CartViewController.swift */; };
+		CAA235482A460F87005630B5 /* APIDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235472A460F87005630B5 /* APIDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		CAA235412A4605F4005630B5 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		CAA235432A460640005630B5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CAA235452A46069D005630B5 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		CAA235472A460F87005630B5 /* APIDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				CA96FCBD2A45D8B700E0945B /* Presenter.swift */,
+				CAA235472A460F87005630B5 /* APIDataSource.swift */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				CA96FCA82A44579700E0945B /* ViewController.swift in Sources */,
 				CA96FCA42A44579700E0945B /* AppDelegate.swift in Sources */,
 				CAA235462A46069D005630B5 /* CartViewController.swift in Sources */,
+				CAA235482A460F87005630B5 /* APIDataSource.swift in Sources */,
 				CA96FCC02A45D8EB00E0945B /* View.swift in Sources */,
 				CAA235402A4605AD005630B5 /* MenuViewController.swift in Sources */,
 				CA96FCC22A45D92100E0945B /* Model.swift in Sources */,
