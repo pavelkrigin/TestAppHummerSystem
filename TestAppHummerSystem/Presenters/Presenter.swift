@@ -6,24 +6,30 @@
 //
 
 import Foundation
+import UIKit
 
-//class UserPresenter {
-//    private weak var view: UserView?
-//    private var user: User
-//    
-//    init(user: User, view: UserView) {
-//        self.user = user
-//        self.view = view
-//    }
-//    
-//    func updateUser(name: String, age: Int) {
-//        user.name = name
-//        user.age = age
-//        updateView()
-//    }
-//    
-//    private func updateView() {
-//        view?.showUserName(user.name)
-//        view?.showUserAge(user.age)
-//    }
-//}
+class NetworkService {
+    
+    // MARK: - Properties
+
+    let urlString = "https://my-json-server.typicode.com/Spote777/PizzaResources/data"
+    
+    // MARK: - Method
+    
+    func request(completion: @escaping (Result<Data, Error>)-> Void) {
+        let url = URL(string: urlString)
+        let session = URLSession.shared
+        session.dataTask(with: url!) { (data, response, error) in
+            DispatchQueue.main.async {
+                if let error = error {
+                    print("Some error")
+                    completion(.failure(error))
+                    return
+                }
+                guard let data = data else { return }
+                completion(.success(data))
+            }
+        }.resume()
+    }
+}
+
