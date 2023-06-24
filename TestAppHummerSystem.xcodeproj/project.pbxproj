@@ -14,13 +14,17 @@
 		CA96FCAD2A44579900E0945B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA96FCAC2A44579900E0945B /* Assets.xcassets */; };
 		CA96FCB02A44579900E0945B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA96FCAE2A44579900E0945B /* LaunchScreen.storyboard */; };
 		CA96FCBE2A45D8B700E0945B /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96FCBD2A45D8B700E0945B /* Presenter.swift */; };
-		CA96FCC02A45D8EB00E0945B /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96FCBF2A45D8EB00E0945B /* View.swift */; };
 		CA96FCC22A45D92100E0945B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96FCC12A45D92100E0945B /* Model.swift */; };
 		CAA235402A4605AD005630B5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA2353F2A4605AD005630B5 /* MenuViewController.swift */; };
 		CAA235422A4605F4005630B5 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235412A4605F4005630B5 /* ContactsViewController.swift */; };
 		CAA235442A460640005630B5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235432A460640005630B5 /* ProfileViewController.swift */; };
 		CAA235462A46069D005630B5 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235452A46069D005630B5 /* CartViewController.swift */; };
 		CAA235482A460F87005630B5 /* APIDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235472A460F87005630B5 /* APIDataSource.swift */; };
+		CAA2354A2A470FA2005630B5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235492A470FA2005630B5 /* TabBarController.swift */; };
+		CAA2354E2A4716AD005630B5 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA2354C2A4716AD005630B5 /* FoodTableViewCell.swift */; };
+		CAA2354F2A4716AD005630B5 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA2354D2A4716AD005630B5 /* FoodTableViewCell.xib */; };
+		CAA235522A4731D7005630B5 /* FilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA235502A4731D7005630B5 /* FilterCollectionViewCell.swift */; };
+		CAA235532A4731D7005630B5 /* FilterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA235512A4731D7005630B5 /* FilterCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +37,17 @@
 		CA96FCAF2A44579900E0945B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA96FCB12A44579900E0945B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA96FCBD2A45D8B700E0945B /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
-		CA96FCBF2A45D8EB00E0945B /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		CA96FCC12A45D92100E0945B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CAA2353F2A4605AD005630B5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CAA235412A4605F4005630B5 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		CAA235432A460640005630B5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CAA235452A46069D005630B5 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		CAA235472A460F87005630B5 /* APIDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataSource.swift; sourceTree = "<group>"; };
+		CAA235492A470FA2005630B5 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CAA2354C2A4716AD005630B5 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		CAA2354D2A4716AD005630B5 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		CAA235502A4731D7005630B5 /* FilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		CAA235512A4731D7005630B5 /* FilterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,19 +85,19 @@
 				CA96FCC42A45D94700E0945B /* Views */,
 				CA96FCBC2A45D88A00E0945B /* Presenters */,
 				CA96FCBB2A45B8C300E0945B /* Interface Builder */,
-				CA96FCB92A44A4DA00E0945B /* Services */,
+				CA96FCB92A44A4DA00E0945B /* Application */,
 			);
 			path = TestAppHummerSystem;
 			sourceTree = "<group>";
 		};
-		CA96FCB92A44A4DA00E0945B /* Services */ = {
+		CA96FCB92A44A4DA00E0945B /* Application */ = {
 			isa = PBXGroup;
 			children = (
 				CA96FCA32A44579700E0945B /* AppDelegate.swift */,
 				CA96FCA52A44579700E0945B /* SceneDelegate.swift */,
 				CA96FCAC2A44579900E0945B /* Assets.xcassets */,
 			);
-			path = Services;
+			path = Application;
 			sourceTree = "<group>";
 		};
 		CA96FCBB2A45B8C300E0945B /* Interface Builder */ = {
@@ -123,10 +131,14 @@
 			children = (
 				CA96FCA72A44579700E0945B /* ViewController.swift */,
 				CAA2353F2A4605AD005630B5 /* MenuViewController.swift */,
-				CA96FCBF2A45D8EB00E0945B /* View.swift */,
+				CAA235492A470FA2005630B5 /* TabBarController.swift */,
 				CAA235412A4605F4005630B5 /* ContactsViewController.swift */,
 				CAA235432A460640005630B5 /* ProfileViewController.swift */,
 				CAA235452A46069D005630B5 /* CartViewController.swift */,
+				CAA2354C2A4716AD005630B5 /* FoodTableViewCell.swift */,
+				CAA2354D2A4716AD005630B5 /* FoodTableViewCell.xib */,
+				CAA235502A4731D7005630B5 /* FilterCollectionViewCell.swift */,
+				CAA235512A4731D7005630B5 /* FilterCollectionViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA96FCB02A44579900E0945B /* LaunchScreen.storyboard in Resources */,
+				CAA235532A4731D7005630B5 /* FilterCollectionViewCell.xib in Resources */,
+				CAA2354F2A4716AD005630B5 /* FoodTableViewCell.xib in Resources */,
 				CA96FCAD2A44579900E0945B /* Assets.xcassets in Resources */,
 				CA96FCAB2A44579700E0945B /* Main.storyboard in Resources */,
 			);
@@ -204,14 +218,16 @@
 			files = (
 				CA96FCA82A44579700E0945B /* ViewController.swift in Sources */,
 				CA96FCA42A44579700E0945B /* AppDelegate.swift in Sources */,
+				CAA2354A2A470FA2005630B5 /* TabBarController.swift in Sources */,
 				CAA235462A46069D005630B5 /* CartViewController.swift in Sources */,
 				CAA235482A460F87005630B5 /* APIDataSource.swift in Sources */,
-				CA96FCC02A45D8EB00E0945B /* View.swift in Sources */,
+				CAA2354E2A4716AD005630B5 /* FoodTableViewCell.swift in Sources */,
 				CAA235402A4605AD005630B5 /* MenuViewController.swift in Sources */,
 				CA96FCC22A45D92100E0945B /* Model.swift in Sources */,
 				CAA235422A4605F4005630B5 /* ContactsViewController.swift in Sources */,
 				CAA235442A460640005630B5 /* ProfileViewController.swift in Sources */,
 				CA96FCBE2A45D8B700E0945B /* Presenter.swift in Sources */,
+				CAA235522A4731D7005630B5 /* FilterCollectionViewCell.swift in Sources */,
 				CA96FCA62A44579700E0945B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

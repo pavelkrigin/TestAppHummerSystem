@@ -14,26 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        //MARK: - Creating an instance ViewControllers
-        let viewController = ViewController()
-                    
-        let menuViewController = MenuViewController()
-        let contactsViewController = ContactsViewController()
-        let profileViewController = ProfileViewController()
-        let cartViewController = CartViewController()
         
-        let tabBarController = UITabBarController()
-        
-        tabBarController.viewControllers = [
-                    menuViewController,
-                    contactsViewController,
-                    profileViewController,
-                    cartViewController
-                ]
         
         //MARK: - Creating an application window and installing ViewController as the root view controller
         let window = UIWindow(frame: UIScreen.main.bounds)
-            window.rootViewController = viewController
+        
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "TabBarController")
+            window.rootViewController = vc
             window.makeKeyAndVisible()
         
         return true

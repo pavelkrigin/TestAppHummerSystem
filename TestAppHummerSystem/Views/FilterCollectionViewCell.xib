@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="filterCell" id="gTV-IL-0wX" customClass="FilterCollectionViewCell" customModule="TestAppHummerSystem" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="88" height="32"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="88" height="32"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="crC-oH-U9U">
+                        <rect key="frame" x="0.0" y="0.0" width="88" height="32"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMM-r4-CBJ">
+                                <rect key="frame" x="16" y="5.6666666666666679" width="56" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QMM-r4-CBJ" firstAttribute="centerY" secondItem="crC-oH-U9U" secondAttribute="centerY" id="1Yb-Ep-e2e"/>
+                            <constraint firstItem="QMM-r4-CBJ" firstAttribute="leading" secondItem="crC-oH-U9U" secondAttribute="leading" constant="16" id="p3d-ng-ZvF"/>
+                            <constraint firstAttribute="trailing" secondItem="QMM-r4-CBJ" secondAttribute="trailing" constant="16" id="uaq-zE-QUa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="crC-oH-U9U" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Abx-IA-86o"/>
+                <constraint firstItem="crC-oH-U9U" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="DWJ-Gt-GVA"/>
+                <constraint firstAttribute="trailing" secondItem="crC-oH-U9U" secondAttribute="trailing" id="RaB-eD-PED"/>
+                <constraint firstAttribute="bottom" secondItem="crC-oH-U9U" secondAttribute="bottom" id="lg0-zI-CO1"/>
+            </constraints>
+            <size key="customSize" width="175" height="100"/>
+            <connections>
+                <outlet property="filterName" destination="QMM-r4-CBJ" id="Odb-7O-ahc"/>
+            </connections>
+            <point key="canvasLocation" x="233.58778625954199" y="37.323943661971832"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
